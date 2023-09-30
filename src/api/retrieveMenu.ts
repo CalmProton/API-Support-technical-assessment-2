@@ -29,9 +29,12 @@ async function retrieveMenu() {
 
     products.sort((a, b) => b.price - a.price);
 
+    console.log(`\n`);
+
     products.forEach((product) => {
       console.log(`${product.name} - $${product.price}`);
     });
+    console.log(`\n`);
   } catch (error) {
     console.log(error);
     return;
