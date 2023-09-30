@@ -1,8 +1,8 @@
 function checkWord(word: string) {
   if (isPalindrome(word)) {
-    console.log(`Word ${word} is a palindrome`);
+    console.log(`${word} - is a palindrome`);
   } else {
-    console.log(`Word ${word} is not a palindrome`);
+    console.log(`${word} - NOT a palindrome`);
   }
 }
 
@@ -11,5 +11,5 @@ function isPalindrome(word: string): boolean {
   return nword === nword.split("").reverse().join("");
 }
 
-const word = "hello";
+const word = "racecar";
 checkWord(word);
