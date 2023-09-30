@@ -12,4 +12,17 @@ function isPalindrome(word: string): boolean {
 }
 
 const word = process.argv[2];
-checkWord(word);
+const defaultword = "APISupport";
+
+if (word) {
+  console.log(`\n`);
+  checkWord(word);
+  console.log(`\n`);
+} else {
+  console.log(
+    `\nEntered word is not valid, using default value - ${defaultword}\n`
+  );
+  checkWord(defaultword);
+
+  console.log(`\n`);
+}
