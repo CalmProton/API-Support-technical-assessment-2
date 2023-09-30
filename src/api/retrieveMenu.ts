@@ -1,8 +1,7 @@
 import axios from "axios";
+import { client, establishment } from "./config";
 
-const client = "lt-support";
 const url = `https://${client}.revelup.com/`;
-const establishment = "101";
 
 retrieveMenu();
 

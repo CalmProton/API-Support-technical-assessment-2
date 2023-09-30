@@ -18,14 +18,18 @@ After downloading the repository, please open the root folder in a CLI and run `
 
 ## Revel API Usage
 
+### !!! Before running scripts, please enter API key and secret in [config.ts](src/api/config.ts), adjust other values as needed.
+
+---
+
 ### Find Expensive item - [expensiveEatIn.ts](src/api/expensiveEatIn.ts)
 
-- Usage: Open the script file and enter API key and API secret, change client if needed. Open project folder in the CLI and run `ts-node src/api/expensiveEatIn.ts` with no arguments
+- Usage: Open project folder in the CLI and run `ts-node src/api/expensiveEatIn.ts` with no arguments
 
 ### Retrieve menu - [retrieveMenu.ts](src/api/retrieveMenu.ts)
 
-- Usage: Open the script file change client if needed. Open project folder in the CLI and run `ts-node src/api/retrieveMenu.ts` with no arguments
+- Usage: Open project folder in the CLI and run `ts-node src/api/retrieveMenu.ts` with no arguments
 
 ### Calculate total - [calculateTotal.ts](src/api/calculateTotal.ts)
 
-- Usage: Open the script file and enter API key and API secret, change client if needed. Open project folder in the CLI and run `ts-node src/api/calculateTotal.ts` with no arguments
+- Usage: Open project folder in the CLI and run `ts-node src/api/calculateTotal.ts` with no arguments

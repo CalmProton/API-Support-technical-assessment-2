@@ -1,12 +1,8 @@
 import axios from "axios";
 import { retrieveMenu } from "./retrieveMenu";
+import { API_KEY, API_SECRET, client, establishment } from "./config";
 
-const API_KEY = "";
-const API_SECRET = "";
-
-const client = "lt-support";
 const url = `https://${client}.revelup.com/`;
-const establishment = "101";
 
 calculateTotal();
 
