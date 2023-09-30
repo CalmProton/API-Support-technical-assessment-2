@@ -28,7 +28,7 @@ async function retrieveMenu() {
       });
     });
 
-    products.sort((a, b) => a.price - b.price);
+    products.sort((a, b) => b.price - a.price);
 
     products.forEach((product) => {
       console.log(`${product.name} - $${product.price}`);
