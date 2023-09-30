@@ -4,7 +4,7 @@
 
 After downloading the repository, please open the root folder in a CLI and run `npm i` to install all packages before running code.
 
-### Is Palindrome - _[isPalindrome.ts](src/general/isPalindrome.ts)_
+### Is Palindrome - [isPalindrome.ts](src/general/isPalindrome.ts)
 
 - Usage: Open project folder in the CLI and run `ts-node src/general/isPalindrome.ts {{word}}`. You can either replace `{{word}}` with something or use the default value by not entering anything
 
@@ -21,3 +21,11 @@ After downloading the repository, please open the root folder in a CLI and run `
 ### Find Expensive item - [expensiveEatIn.ts](src/api/expensiveEatIn.ts)
 
 - Usage: Open the script file and enter API key and API secret, change client if needed. Open project folder in the CLI and run `ts-node src/api/expensiveEatIn.ts` with no arguments
+
+### Retrieve menu - [retrieveMenu.ts](src/api/retrieveMenu.ts)
+
+- Usage: Open the script file change client if needed. Open project folder in the CLI and run `ts-node src/api/retrieveMenu.ts` with no arguments
+
+### Calculate total - [calculateTotal.ts](src/api/calculateTotal.ts)
+
+- Usage: Open the script file and enter API key and API secret, change client if needed. Open project folder in the CLI and run `ts-node src/api/calculateTotal.ts` with no arguments

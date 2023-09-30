@@ -69,7 +69,7 @@ async function getOrderId(): Promise<number | null> {
       return null;
     }
   } catch (error) {
-    console.log(error);
+    console.log("An error occured while processing the request");
     return null;
   }
 }
@@ -85,7 +85,7 @@ async function getOrderItems(orderId: number): Promise<any> {
 
     return orderItems;
   } catch (error) {
-    console.log(error);
+    console.log("An error occured while processing the request");
     return null;
   }
 }
