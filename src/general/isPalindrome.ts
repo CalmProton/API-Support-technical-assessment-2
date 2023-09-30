@@ -11,5 +11,5 @@ function isPalindrome(word: string): boolean {
   return nword === nword.split("").reverse().join("");
 }
 
-const word = "racecar";
+const word = process.argv[2];
 checkWord(word);
